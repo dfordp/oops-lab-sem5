@@ -7,17 +7,6 @@ class Distance{
         int feet;
         int inches;
     public:
-        // Constructor
-        Distance(int ft = 0, int inch = 0) {
-            feet = ft;
-            inches = inch;
-        }
-
-        // Destructor
-        ~Distance() {
-            // Nothing to clean up
-        }
-
         void setData(int ft,int inch){
             feet=ft;
             inches=inch;
